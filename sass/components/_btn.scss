@@ -1,7 +1,20 @@
-.btn {
-  @include font(700, 16px, 1.87, 0.06em);  
-  border: none;
+.main-btn {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: $hero-text-color;
-  background-color: $accent-color;
+  border: transparent;
+  background-color: var(--accent-color);
+  color: var(--hero-text-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.main-btn:hover,
+.main-btn:focus {
+  background-color: #188ce8;
 }
