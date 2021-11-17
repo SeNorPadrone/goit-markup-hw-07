@@ -4,14 +4,12 @@
   left: 0;
   z-index: 1;
   width: 100%;
-  background-color: $hero-text-color;
-
-  &__border {
-    border-bottom: 1px solid #ececec;
-  }
+  background-color: var(--hero-text-color);
 }
-
-.header__container {
+.header-container {
   display: flex;
   align-items: center;
+}
+.border-bottom {
+  border-bottom: 1px solid #ececec;
 }
