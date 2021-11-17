@@ -1,0 +1,13 @@
+.footer {
+  padding: 60px 0;
+  background-color: $hero-footer-bg-color;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__box {
+  margin-right: 70px;
+}
