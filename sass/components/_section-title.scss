@@ -4,16 +4,16 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-align: center;
-    color: var(--title-text-color);
+    color: $title-text-color;
   }
   
   .qualities-title {
     margin-bottom: 10px;
     font-weight: 700;
-    font-size: var(--primary-font-size);
+    font-size: $primary-font-size;
     line-height: 1.14;
     text-transform: uppercase;
-    color: var(--title-text-color);
+    color: $title-text-color;
     letter-spacing: 0.03em;
   }
   .qualities-list {
@@ -22,7 +22,7 @@
   .qualities-text {
     min-width: 270px;
     font-weight: 400;
-    font-size: var(--primary-font-size);
+    font-size: $primary-font-size;
     line-height: 1.71;
     letter-spacing: 0.03em;
   }

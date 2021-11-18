@@ -16,8 +16,8 @@
   
   .social-link:hover,
   .social-link:focus {
-    background-color: var(--accent-color);
-    color: var(--hero-text-color);
+    background-color: $accent-color;
+    color: $hero-text-color;
     cursor: pointer;
   }
   
@@ -28,5 +28,5 @@
   .social-icon {
     width: 20px;
     height: 20px;
-    fill: currentColor;
+    fill: $currentColor;
   }
