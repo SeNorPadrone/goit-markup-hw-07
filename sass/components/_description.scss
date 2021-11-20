@@ -1,7 +1,7 @@
 .description {
     padding-top: 0;
   }
-  .description-title {
+  .description__title {
     margin-bottom: 50px;
     font-weight: 700;
     font-size: 36px;
@@ -10,13 +10,13 @@
     text-align: center;
     color: $title-text-color;
   }
-  .description-list {
+  .description__list {
     display: flex;
   }
-  .description-item {
+  .description__item {
     position: relative;
   }
-  .description-thumb {
+  .description__thumb {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
   }
-  .thumb-title {
+  .thumb__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -34,6 +34,6 @@
     text-transform: uppercase;
     color: #ffffff;
   }
-  .description-item:not(:last-child) {
+  .description__item:not(:last-child) {
     margin-right: 30px;
   }

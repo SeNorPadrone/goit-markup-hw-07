@@ -1,4 +1,4 @@
-.section-title {
+.section__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -7,7 +7,7 @@
     color: $title-text-color;
   }
   
-  .qualities-title {
+  .qualities__title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: $primary-font-size;
@@ -16,23 +16,23 @@
     color: $title-text-color;
     letter-spacing: 0.03em;
   }
-  .qualities-list {
+  .qualities__list {
     display: flex;
   }
-  .qualities-text {
+  .qualities__text {
     min-width: 270px;
     font-weight: 400;
     font-size: $primary-font-size;
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
-  .qualities-list {
+  .qualities_list {
     display: flex;
   }
   .qualities-item:not(:last-child) {
     margin-right: 30px;
   }
-  .qualities-item-icon {
+  .qualities__item--icon {
     display: flex;
     justify-content: center;
     padding: 25px 0;

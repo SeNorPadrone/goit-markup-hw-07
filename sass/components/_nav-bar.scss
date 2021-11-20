@@ -1,38 +1,58 @@
 .nav-bar {
-    display: flex;
-  }
-  .nav-bar-logo {
-    padding-top: 24px;
-    padding-bottom: 25px;
-    margin-right: 93px;
-    color: $accent-color;
-    font-family: Raleway;
-    font-weight: 700;
-    text-decoration: none;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-  }
-  
-  .nav-bar-logo > span {
-    color: #000000;
-  }
-  
-  .navigation {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-  .navigation-item {
-    position: relative;
-  }
-  .navigation-item:not(:last-child) {
+  display: flex;
+}
+.nav-bar-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+  color: $accent-color;
+  font-family: Raleway;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.nav-bar-logo > span {
+  color: #000000;
+}
+
+.navigation {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.navigation__item {
+  position: relative;
+
+  &:not(:last-child) {
     margin-right: 50px;
   }
-  
-  .current::after {
+}
+
+.navigation__link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: $title-text-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+.navigation__link--current {
+  color: $accent-color;
+
+  &::after {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     content: "";
     width: 100%;
@@ -40,27 +60,4 @@
     background-color: $accent-color;
     border-radius: 2px;
   }
-  .navigation-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-weight: 500;
-    font-size: $primary-font-size;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: $title-text-color;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .navigation-link:hover,
-  .navigation-link:focus {
-    color: $accent-color;
-  }
-  .current {
-    color: $accent-color;
-  }
-  
-  .navigation .navigation-link:hover,
-  .navigation .navigation-link:focus {
-    color: $accent-color;
-  }
+}

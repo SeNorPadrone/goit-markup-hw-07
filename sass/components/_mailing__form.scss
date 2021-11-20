@@ -1,9 +1,9 @@
-.mailing-form {
+.mailing__form {
     display: flex;
     align-items: flex-end;
   }
   
-  .mailing-input {
+  .mailing__input {
     display: flex;
     flex-direction: column;
     margin-right: 12px;
@@ -11,7 +11,7 @@
   
   }
   
-  .mailing-input label {
+  .mailing__input label {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: $primary-font-size;
@@ -21,7 +21,7 @@
     color: $hero-text-color;
   }
   
-  .mailing-input input {   
+  .mailing__input input {   
     height: 50px;
     padding: 15px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -31,14 +31,14 @@
     background-color: $hero-footer-bg-color;
   }
   
-  .mailing-input input::placeholder {
+  .mailing__input input::placeholder {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.25;      
     letter-spacing: 0.03em;    
     color: rgba(255, 255, 255, 0.6);
   }
-  .mailing-btn {
+  .mailing__btn {
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -56,7 +56,7 @@
     color: $hero-text-color;
     background-color: $accent-color; 
   }
-  .btn-icon {
+  .btn__icon {
     height: 24px;
     min-width: 24px;
     margin-left: 10px;
